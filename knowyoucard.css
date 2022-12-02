@@ -1,0 +1,297 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: rgb(255, 255, 255);
+  font-family: Roboto,Arial;
+  font-size: 15;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  height: 150%;
+  width: 100%;
+  }  
+     /* Images */
+ img{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  border-radius: 5px;
+ }
+ p{
+  margin: 0px;
+ }
+
+ .header{
+  border: none;
+  border-color: rgb(201, 169, 26);
+  background-color: rgb(70, 70, 121);
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  height: 510px;
+  width: 100%;
+  margin: 0px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content:flex-start;
+ }
+
+
+ .Left-side-title{
+  text-align: center;
+  border: none;
+  border-color: yellow;
+  margin: 0px;
+  margin-top: 100px;
+  height: 75%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  vertical-align: middle;
+ }
+ 
+ .title{
+  font-family: Roboto;
+  color: white;
+  text-shadow: 3px 3px purple;
+  margin: 0px;
+  font-size: 150px;
+ }
+
+.details{
+  font-size: 15px;
+  font-family: Roboto;
+  color: white;
+  margin-left: 10px;
+  font-size: 50px;
+}
+
+.SIGN-IN{
+  height: 25px;
+  width: 100%;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+ }
+
+.SIGN-IN-BUTTON{
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  font-family: Roboto;
+  font-weight: bold;
+  margin: 0px;
+  background-color: rgb(29, 126, 165);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+ /* Pages */
+
+  .take-to{
+    border: none;
+    border-color: black;
+    width: 300px;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: space-evenly;
+    flex: 0;
+  }
+
+  .Take-to-cards{
+    background-color: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-right: none;
+    width: 200px;
+    height: 100px;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  
+  .Take-to-cards:hover{
+    color: purple;
+    background-color: rgb(255, 255, 255);
+  }
+  
+
+.Dictionary{
+  background-color: none;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-right: none;
+  width: 200px;
+  height: 100px;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  cursor: pointer;
+}
+.Dictionary:hover{
+  color: purple;
+  background-color: rgb(255, 255, 255);
+}
+
+.About{
+  background-color: none;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-right: none;
+  width: 200px;
+  height: 100px;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  cursor: pointer;
+}
+.About:hover{
+  color: purple;
+  background-color: rgb(255, 255, 255);
+}
+
+.Contact{
+  background-color: none;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-right: none;
+  width: 200px;
+  height: 100px;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.Contact:hover{
+  color: purple;
+  background-color: rgb(255, 255, 255);
+}
+
+.Shop{
+  background-color: none;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-right: none;
+  width: 200px;
+  height: 100px;
+  border-radius: 0px;
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  cursor: pointer;
+}
+.Shop:hover{
+  color: purple;
+  background-color: rgb(255, 255, 255);
+}
+
+ /*  Mission */
+ .main-part{
+  border: none;
+  border-color: blue;
+  width: 100%;
+  height: 500px;
+  display: inline-flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.mission{
+  border: none;
+  color: purple;
+  border-color: green;
+  font-family: Roboto,Arial;
+  margin: 0px;
+  font-size: 40px;
+}
+.mission-dis{
+  border: none;
+  border-color: rgb(128, 0, 0);
+  font-family: Roboto,Arial;
+  color: purple;
+  margin: 0px;
+  font-size: 20px;
+}
+
+.RNews{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-family: Roboto,Arial;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.Usn{
+  margin-top: 20px;
+  height: 400px;
+  width: 100%;
+  border: none;
+  border-color: black;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.news-1{
+  border: none;
+  border-color: green;
+  border-radius: 5px;
+  height: 400px;
+  width: 500px;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0px 0px 4px 2px rgb(3, 3, 3)
+}
+.news-2{
+  border: none;
+  border-color: green;
+  border-radius: 5px;
+  height: 400px;
+  width: 500px;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0px 0px 4px 2px rgb(3, 3, 3)
+}
+
+.news-3{
+  border: none;
+  border-color: green;
+  border-radius: 5px;
+  height: 400px;
+  width: 500px;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0px 0px 4px 2px rgb(3, 3, 3)
+}
+
+.Nimg{
+  border: none;
+  border-color: black;
+  height: 300px;
+  width: 100%;
+}
+
+.Ndis{
+  margin: 0px;
+  border: none;
+  border-color: black;
+  height: 130px;
+  font-size: 26px;
+}

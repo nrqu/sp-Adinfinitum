@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Roboto,Arial;
+    font-size: 15;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    }  
+
+    b{
+      color: white;
+    }
+   /*header*/
+   .header{
+    border: none;
+    border-color: rgb(201, 169, 26);
+    background-color: rgb(70, 70, 121);
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    height: 70px;
+    width: 100%;
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex:1;
+   }
+   .title{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-color: rgb(255, 13, 13);
+    font-family: Roboto;
+    color: white;
+    text-shadow: 3px 3px purple;
+    margin: 0px;
+    font-size: 50px;
+    cursor: pointer;
+   }
+
+   .pick{
+    height: 400px;
+    width: 100%;
+    border: none;
+    border-color: black;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+    margin-top: 200px;
+}
+
+   .SignIn{
+    border: solid;
+    border-color: rgb(70, 70, 121);
+    background-color: white;
+    height: 400px;
+    width: 700px;
+    color: black;
+    box-shadow: 0px 0px 5px 5px black;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: black;
+  }
+  
+  button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #ffffff;
+    border: solid;
+  }
+  
+  
+  .container {
+    padding: 16px;
+    background-color: rgb(70, 70, 121);
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }

@@ -1,0 +1,210 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Roboto,Arial;
+    font-size: 15;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    }  
+       /* Images */
+   img{
+    width: 100%;
+    height: 100%;
+   }
+   p{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+   }
+   /*header*/
+   .header{
+    border: none;
+    border-color: rgb(201, 169, 26);
+    background-color: rgb(70, 70, 121);
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    height: 70px;
+    width: 100%;
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: row;
+    flex: 1;
+   }
+  
+  
+   .Left-side-title{
+    text-align: left;
+    border: none;
+    margin: 0px;
+    height: 100%;
+    width: 700px;
+    margin-top: 0px;
+    display: inline-flex;
+    flex: 1;
+    justify-content: flex-start;
+   }
+   
+   .title{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-color: rgb(255, 13, 13);
+    font-family: Roboto;
+    font-size:inherit;
+    color: white;
+    text-shadow: 3px 3px purple;
+    margin: 0px;
+    font-size: 50px;
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+   }
+
+   /* Pages */
+  
+    .take-to{
+      border: none;
+      border-color: black;
+      width: 100%;
+      height: 100%;
+      vertical-align: top;
+      display: inline-flex;
+      flex-direction: row;
+      margin: 0px;
+      justify-content: space-evenly;
+      flex: 1;
+    }
+  
+   .Take-to-cards{
+    background-color: rgb(70, 70, 121);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-right: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  
+  .Take-to-cards:hover{
+    color: purple;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .Dictionary{
+    background-color: rgb(70, 70, 121);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-right: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  .Dictionary:hover{
+    color: purple;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .About{
+    background-color: rgb(70, 70, 121);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-right: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  .About:hover{
+    color: purple;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .Creator{
+    background-color: rgb(70, 70, 121);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-right: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  .Creator:hover{
+    color: purple;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .Shop{
+    background-color: rgb(70, 70, 121);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-right: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  .Shop:hover{
+    color: purple;
+    background-color: rgb(255, 255, 255);
+  }
+
+  /* Pick an option*/
+.Options{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-color: crimson;
+    margin: 0px;
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    .pick{
+        height: 400px;
+        width: 100%;
+        border: none;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0px;
+        margin-top: 200px;
+    }
+
+     .Gaming{
+    border: solid;
+    border-color: purple;
+    height: 400px;
+    width: 700px;
+    color: black;
+    content:url(/img_CARD/gaming2.jpg);
+    cursor: pointer;
+}
+
+        .Design{
+    border: solid;
+    border-color: purple;
+    height: 400px;
+    width: 700px;
+    content:url(/img_CARD/NVIDIA_Share_3tm2LfJnWz.png);
+    cursor: pointer;
+}
